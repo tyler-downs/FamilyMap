@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FamilyMap</string>
+
+    <string-array name="spinner_colors_array">
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+    </string-array>
+
+    <string-array name="spinner_map_types_array">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+</resources>

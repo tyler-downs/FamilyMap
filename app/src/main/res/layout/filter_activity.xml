@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/filter_list_view"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/fathers_side_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:id="@+id/fathers_side_top_text"
+            android:layout_toRightOf="@+id/fathers_side_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/fathers_side_bottom_text"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:layout_below="@id/fathers_side_top_text"
+            android:layout_toRightOf="@id/fathers_side_switch" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/mothers_side_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:id="@+id/mothers_side_top_text"
+            android:layout_toRightOf="@+id/mothers_side_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/mothers_side_bottom_text"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:layout_below="@id/mothers_side_top_text"
+            android:layout_toRightOf="@id/mothers_side_switch" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/male_events_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:id="@+id/male_events_top_text"
+            android:layout_toRightOf="@+id/male_events_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/male_events_bottom_text"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:layout_below="@id/male_events_top_text"
+            android:layout_toRightOf="@id/male_events_switch" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/female_events_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:id="@+id/female_events_top_text"
+            android:layout_toRightOf="@+id/female_events_switch"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/female_events_bottom_text"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:layout_below="@id/female_events_top_text"
+            android:layout_toRightOf="@id/female_events_switch" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"/>
+
+
+
+</LinearLayout>

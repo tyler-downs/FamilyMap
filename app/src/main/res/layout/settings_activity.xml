@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:id="@+id/life_story_lines_switch"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/life_story_lines_switch"
+            android:id="@+id/life_story_lines_spinner">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Life Story Lines"
+            android:layout_toRightOf="@id/life_story_lines_spinner"
+            android:id="@+id/life_story_lines_name"
+            android:paddingLeft="10dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Toggle the life story lines"
+            android:layout_toRightOf="@id/life_story_lines_spinner"
+            android:layout_below="@id/life_story_lines_name"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:id="@+id/life_story_lines_info"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:id="@+id/family_tree_lines_switch"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/family_tree_lines_switch"
+            android:id="@+id/family_tree_lines_spinner">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Family Tree Lines"
+            android:layout_toRightOf="@id/family_tree_lines_spinner"
+            android:paddingLeft="10dp"
+            android:textSize="25sp"
+            android:id="@+id/family_tree_lines_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Toggle the family tree lines"
+            android:layout_toRightOf="@id/family_tree_lines_spinner"
+            android:layout_below="@id/family_tree_lines_name"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:id="@+id/family_tree_lines_info"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:id="@+id/spouse_lines_switch"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/spouse_lines_switch"
+            android:id="@+id/spouse_lines_spinner">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Spouse Lines"
+            android:layout_toRightOf="@id/spouse_lines_spinner"
+            android:paddingLeft="10dp"
+            android:textSize="25sp"
+            android:id="@+id/spouse_lines_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Toggle the spouse lines"
+            android:layout_toRightOf="@id/spouse_lines_spinner"
+            android:layout_below="@id/spouse_lines_name"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:id="@+id/spouse_lines_info"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/map_type_spinner">
+        </Spinner>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Map Type"
+            android:layout_toRightOf="@id/map_type_spinner"
+            android:paddingLeft="10dp"
+            android:textSize="25sp"
+            android:paddingStart="50dp"
+            android:id="@+id/map_type_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Change the map type"
+            android:layout_toRightOf="@id/map_type_spinner"
+            android:layout_below="@id/map_type_name"
+            android:paddingLeft="10dp"
+            android:paddingStart="50dp"
+            android:textSize="10sp"
+            android:id="@+id/map_type_info"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Re-Sync Data"
+            android:paddingLeft="10dp"
+            android:textSize="25sp"
+            android:id="@+id/resync_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Re-sync the data"
+            android:layout_below="@id/resync_name"
+            android:textSize="10sp"
+            android:paddingLeft="10dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Logout"
+            android:paddingLeft="10dp"
+            android:textSize="25sp"
+            android:id="@+id/logout_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="Return to the login screen"
+            android:layout_below="@id/logout_name"
+            android:textSize="10sp"
+            android:paddingLeft="10dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+
+</LinearLayout>

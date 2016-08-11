@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="male_icon">#3396FF</color>
+    <color name="female_icon">#F333FF</color>
+    <color name="spouse_line_pink">#EA82DD</color>
+</resources>
